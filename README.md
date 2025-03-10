@@ -10,7 +10,7 @@ The system goes through several steps, including data preprocessing, feature eng
 
 ## Steps involved in the Project
 
-1. **Dataset**: The project utilizes a dataset containing information about loan applications. The dataset includes features such as gender, marital status, number of dependents, education, employment status, income details, loan amount, loan amount term, credit history, property area, and the loan status (whether approved or not). ```Click on the dataset link```[click here](https://github.com/dhrupad17/Loan-Status-Prediction/tree/main)
+1. **Dataset**: The project utilizes a dataset containing information about loan applications. The dataset includes features such as gender, marital status, number of dependents, education, employment status, income details, loan amount, loan amount term, credit history, property area, and the loan status (whether approved or not).
 
 2. **Data Preprocessing:** The dataset undergoes several preprocessing steps to handle missing values, convert categorical variables into numerical representations, and ensure consistency with the training data. Missing values are filled using appropriate methods, and categorical variables are encoded using label encoding or mapping.
 
@@ -24,9 +24,7 @@ The system goes through several steps, including data preprocessing, feature eng
 
 7. **Saving the Model:** The trained SVM classifier is saved using the pickle library. The model is serialized and saved to a file (e.g., loan_status_model.pkl) to be used for future predictions without the need for retraining.
 
-8. **Streamlit App:** A web application is developed using Streamlit to create an interactive interface for users to input loan application details. The input fields include features such as gender, marital status, income, loan amount, etc. After entering the details and clicking the "Predict Loan Status" button, the trained SVM model is loaded, and the loan status is predicted based on the provided information.
 
-## ```Click to check the loan status``` [click here👉](https://dhrupad17-loan-status-prediction-app-7n5ll3.streamlit.app/)
 
 ## A brief about Support Vector Machine Model
 
